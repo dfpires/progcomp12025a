@@ -64,3 +64,28 @@ table tr td {
 table {
     margin: 0 auto; /* centraliza a tabela na página */
 }
+
+.laranja {
+    background-color: orange;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxa {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+.azul {
+    background-color: navy;
+    color: white;
+}
+
+.campos {
+    margin-bottom: 20px;
+}

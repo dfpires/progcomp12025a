@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trote Solidário - 2025</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script src="js/scripts.js"> </script>
+    </head>
+    <body>
+        <header> <!-- cabeçalho do corpo da página -->
+            Trote Solidário 2025
+        </header>
+        <nav> <!-- barra de navegação (menu de opções) -->
+            <div id="links-menu">
+                <a href="index.html"> Home </a>
+                <a href="introducao.html"> Introdução </a>
+                <a href="objetivo.html"> Objetivo </a>
+                <a href="formato.html"> Formato </a>
+                <a href="gincana.html"> Gincana </a>
+                <a href="integracao.html"> Integração </a>
+                <a href="observacoes.html"> Observações </a>
+                <a href="calculadoras.html"> Calculadoras </a>
+            </div>
+            <img src="images/trote.jpg" alt="Trote Solidário"/>
+        </nav>
+        <!-- class podemos reutilizar o estilho, id não -->
+<!-- id não pode ser reutilizado pois só temos um elemento por id -->
+        <div class="container">
+            <h2> Calculadoras </h2>
+            <form>
+                <div class="campos">
+                    <label> Mascote do time </label>
+                    <input type="number" id="mascote"/>
+                </div>
+                <div class="campos">
+                    <label> Homenagem a um atleta </label>
+                    <input type="number" id="homenagem"/>
+                </div>
+                <div class="campos">
+                    <button type="button" onclick="calcular()"> Calcular </button>
+                    <label id="soma"> </label>
+                </div>
+            </form>
+            
+            
+        </div>
+    </body>
+</html>
