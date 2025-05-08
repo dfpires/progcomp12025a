@@ -41,6 +41,12 @@ function calcular(){
         }
     }
     else if (equipe == "Preta"){
+            // verifica kit e suplemento
+
+            // verifica sangue
+            if (sangue >= 52) {
+                soma = soma + 
+            }
 
     }
     else if (equipe == "Roxa"){
